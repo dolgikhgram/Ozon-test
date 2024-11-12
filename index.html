@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="border">
+        <div class="progress-space">
+            <svg class="progress-ring" width="320" height="284">
+            <circle
+            id="circle"
+            stroke="#1237"
+            stroke-width="5"
+            cx="160"
+            cy="142"
+            r="90"
+            fill="transparent"
+            class="circle"
+            />
+            </svg>
+        </div>
+        <div class="menu">
+        
+            <div class="valueOfProgress">
+                <div class="progressValue">
+                    <input 
+                    cols="3"
+                    rows="1"
+                    maxlength="3"
+                    id="input"
+                    class="input-value">
+                    </input>
+                </div>
+                <div class="nameMenu">
+                    <h3>value</h3>
+                </div>
+            </div>
+            <div class="animate">
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" id="animate">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="nameMenu">
+                    <h4>animate</h4>
+                </div>
+            </div>
+            <div class="hide">
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" id="hide">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="nameMenu">
+                    <h4>hide</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
